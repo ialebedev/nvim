@@ -1,5 +1,4 @@
 -- Base
-vim.opt.linebreak = true
 vim.opt.shell = '/bin/bash'
 
 -- Indent
@@ -28,3 +27,14 @@ vim.opt.splitright = true
 
 -- Clipboard
 vim.opt.clipboard = 'unnamedplus'
+
+-- Fillchars
+vim.opt.fillchars = {
+    vert = '|',
+    fold = ' ',
+    eob = ' ',
+    msgsep = '‾',
+    foldopen = "▾",
+    foldsep = "│",
+    foldclose = "▸"
+}
