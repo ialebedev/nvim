@@ -19,7 +19,6 @@ vim.keymap.set('n', '\\', ':split<CR>')
 -- Other
 vim.keymap.set('i', 'jj', '<Esc>')
 vim.keymap.set('n', '<leader>w', ':w<CR>')
-vim.keymap.set('n', '<leader>W', ':wq<CR>')
 vim.keymap.set('n', '<leader>q', ':q!<CR>')
 vim.keymap.set('n', '<leader>x', ':BufferLinePickClose<CR>')
 vim.keymap.set('n', '<leader>X', ':BufferLineCloseRight<CR>')
