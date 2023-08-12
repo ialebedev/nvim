@@ -20,7 +20,11 @@ require('lazy').setup({
 
 -- Lualine
 {
-    'nvim-lualine/lualine.nvim'
+    'nvim-lualine/lualine.nvim',
+    dependencies = {
+        'nvim-tree/nvim-web-devicons',
+        'linrongbin16/lsp-progress.nvim'
+    }
 },
 
 -- Neo-tree
@@ -67,6 +71,30 @@ require('lazy').setup({
 -- Mason
 {
     'williamboman/mason.nvim'
+},
+
+-- Auto Pairs
+{
+    'windwp/nvim-autopairs'
+},
+
+-- Buffer Line
+{
+    'akinsho/bufferline.nvim',
+    version = "*",
+    dependencies = 'nvim-tree/nvim-web-devicons'
+},
+
+-- Nvim Comment
+{
+    'terrortylor/nvim-comment'
+},
+
+-- Toggle Term
+{
+    'akinsho/toggleterm.nvim',
+    version = "*",
+    config = true
 }
 
 })
