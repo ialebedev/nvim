@@ -62,6 +62,11 @@ require('lazy').setup({
 
     'hrsh7th/cmp-vsnip',
     'hrsh7th/vim-vsnip'
+},
+
+-- Mason
+{
+    'williamboman/mason.nvim'
 }
 
 })
