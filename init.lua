@@ -5,6 +5,7 @@ require('core.colors')
 require('core.mappings')
 
 -- Plugins config
+require('plugins.lualine')
 require('plugins.neotree')
 require('plugins.telescope')
 require('plugins.treesitter')
