@@ -28,8 +28,10 @@ require('lazy').setup({
     'nvim-neo-tree/neo-tree.nvim',
     branch = 'v3.x',
     dependencies = {
-        'nvim-lua/plenary.nvim', 'nvim-tree/nvim-web-devicons',
-        'MunifTanjim/nui.nvim', 's1n7ax/nvim-window-picker'
+        'nvim-lua/plenary.nvim',
+        'nvim-tree/nvim-web-devicons',
+        'MunifTanjim/nui.nvim',
+        's1n7ax/nvim-window-picker'
     }
 },
 
@@ -48,6 +50,18 @@ require('lazy').setup({
 -- NVIM LSP Client
 {
     'neovim/nvim-lspconfig'
+},
+
+-- Auto-complete
+{
+    'hrsh7th/cmp-nvim-lsp',
+    'hrsh7th/cmp-buffer',
+    'hrsh7th/cmp-path',
+    'hrsh7th/cmp-cmdline',
+    'hrsh7th/nvim-cmp',
+
+    'hrsh7th/cmp-vsnip',
+    'hrsh7th/vim-vsnip'
 }
 
 })
