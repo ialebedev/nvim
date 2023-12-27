@@ -1,0 +1,5 @@
+
+-- Install -- 
+
+git clone https://github.com/ialebedev/nvim.git
+pacman -Sy --needed pyright
